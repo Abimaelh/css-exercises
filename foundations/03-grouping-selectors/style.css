@@ -1,13 +1,17 @@
+/* Group selectors here and add shared values: font size and font family
+    This helps eliminate repetition */
+.first,
+.second {
+    font-size: 28px;
+    font-family: 'Helvetica','Times New Roman', sans-serif;
+}
+
 .first {
     background-color: black;
     color: white;
-    font-size: 28px;
-    font-family: "Helvetica", "Times New Roman", "sans-serif";
 }
 
 .second {
     background-color: yellow;
     color: black;
-    font-size: 28px;
-    font-family: "Helvetica", "Times New Roman", "sans-serif";
 }
