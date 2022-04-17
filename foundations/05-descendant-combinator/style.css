@@ -1,6 +1,13 @@
-.container .text {
+.container p {
     background-color: yellow;
     color: red;
     font-size: 20px;
     text-align: center;
 }
+
+/* you can also combine type and class selectors
+div p
+.container p
+.container .text
+div .text
+*/
