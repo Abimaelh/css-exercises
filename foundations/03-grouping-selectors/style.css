@@ -3,7 +3,8 @@
 .first,
 .second {
     font-size: 28px;
-    font-family: 'Helvetica','Times New Roman', sans-serif;
+    font-family: Helvetica,"Times New Roman", sans-serif;
+    /* use double quotes for fonts with spaces */
 }
 
 .first {
