@@ -2,10 +2,12 @@
     background-color: black;
     color: white;
     font-size: 28px;
+    font-family: "Helvetica", "Times New Roman", "sans-serif";
 }
 
 .second {
     background-color: yellow;
     color: black;
     font-size: 28px;
+    font-family: "Helvetica", "Times New Roman", "sans-serif";
 }
