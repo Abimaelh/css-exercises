@@ -9,9 +9,29 @@ body {
 }
 
 .header {
+  display: flex;
+  justify-content: space-around;
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+}
+
+.left-header {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: start;
+  align-items: center;
+  gap: 16px;
+  margin-right: auto;
+}
+
+.right-header {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: end;
+  align-items: center;
+  margin-left: auto;
+  gap: 16px;
 }
 
 .profile-image {
@@ -23,6 +43,7 @@ body {
 }
 
 .logo {
+  justify-content: space-between;
   color: rebeccapurple;
   font-size: 32px;
   font-weight: 900;
@@ -44,5 +65,9 @@ a {
 }
 
 ul {
+  display: flex;
+  justify-content: space-around;
+  gap: 8px;
   list-style-type: none;
+  padding: 0;
 }
